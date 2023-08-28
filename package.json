@@ -1,0 +1,32 @@
+{
+  "name": "node-shortcut-tv-handler",
+  "version": "0.0.1",
+  "description": "An API Server listening to commands from iOS shortcut in order to interact with a Samsung Smart TV",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --inspect src/index.js"
+  },
+  "keywords": [
+    "Samsung",
+    "SmartTV",
+    "iOS",
+    "Shortcut"
+  ],
+  "author": {
+    "name": "Andrea Metelli",
+    "email": "metelliandrea@gmail.com",
+    "url": "https://github.com/metelliandrea"
+  },
+  "license": "SEE LICENSE IN FILE ./LICENSE.txt",
+  "dependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/express": "^4.17.17",
+    "@types/pino-http": "^5.8.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "node-samsung-remote": "^1.0.1",
+    "pino-http": "^8.4.0",
+    "samsung-tv-remote": "^2.0.1"
+  }
+}
