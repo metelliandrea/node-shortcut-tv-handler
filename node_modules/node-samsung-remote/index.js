@@ -1,1 +1,0 @@
-module.exports = require('./lib/node-samsung-remote');
