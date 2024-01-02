@@ -9,8 +9,7 @@ module.exports = {
         PORT: 7942,
         TOKEN: "<YOUR-TOKEN>",
       },
-      watch: true,
-      autorestart: true,
+      watch: true
     },
   ],
 };
