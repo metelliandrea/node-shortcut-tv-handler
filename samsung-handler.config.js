@@ -2,11 +2,12 @@ module.exports = {
   apps: [
     {
       name: "node-shortcut-tv-handler",
-      script: "./src/index.js",
+      script: "src/index.js",
+      cwd: "/node/node-shortcut-tv-handler/",
       env: {
         NODE_ENV: "production",
         PORT: 7942,
-        TOKEN: "aNTgA6HeXBP4oyyHetlSUnu9p1M7Gk0qW5C",
+        TOKEN: "<YOUR-TOKEN>",
       },
       watch: true
     },

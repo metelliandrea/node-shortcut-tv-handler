@@ -78,7 +78,7 @@ async function main() {
     },
     async (req, res) => {
       try {
-        // await remote.sendKeys(Array(req.body.times).fill(Keys.KEY_VOLDOWN));
+        await remote.sendKeys(Array(req.body.times).fill(Keys.KEY_VOLDOWN));
 
         res.status(200).json({ message: "Ok, ho abbassato il volume" });
       } catch (err) {
