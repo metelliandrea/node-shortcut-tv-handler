@@ -36,6 +36,8 @@ async function main() {
           await remote.sendKey(Keys[`KEY_${digit}`]);
         }
 
+        await remote.sendKey(Keys.KEY_ENTER);
+
         res
           .status(200)
           .json({ message: `Ok, metto sul canale ${req.body.channel}` });

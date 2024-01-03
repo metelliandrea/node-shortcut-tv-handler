@@ -544,11 +544,6 @@ negotiator@0.6.3:
   resolved "https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz"
   integrity sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==
 
-node-samsung-remote@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/node-samsung-remote/-/node-samsung-remote-1.0.1.tgz"
-  integrity sha512-j4tRe1nnSFiUcy7ZKqY7OQHx9JwWloAR3vBaHbRxP1jN5oty7giaFYQxRF8e9Yp8GUZh93FKZso5reQeOWgPaw==
-
 object-inspect@^1.9.0:
   version "1.12.3"
   resolved "https://registry.npmjs.org/object-inspect/-/object-inspect-1.12.3.tgz"
@@ -599,10 +594,10 @@ pino-abstract-transport@v1.1.0:
     readable-stream "^4.0.0"
     split2 "^4.0.0"
 
-pino-http@^8.6.1:
-  version "8.6.1"
-  resolved "https://registry.yarnpkg.com/pino-http/-/pino-http-8.6.1.tgz#46338caea759c9c86fc44f3226ed6976364ec269"
-  integrity sha512-J0hiJgUExtBXP2BjrK4VB305tHXS31sCmWJ9XJo2wPkLHa1NFPuW4V9wjG27PAc2fmBCigiNhQKpvrx+kntBPA==
+pino-http@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/pino-http/-/pino-http-9.0.0.tgz#854c65ff0b269ae67ada55996233b7c53ec146fd"
+  integrity sha512-Q9QDNEz0vQmbJtMFjOVr2c9yL92vHudjmr3s3m6J1hbw3DBGFZJm3TIj9TWyynZ4GEsEA9SOtni4heRUr6lNOg==
   dependencies:
     get-caller-file "^2.0.5"
     pino "^8.17.1"
