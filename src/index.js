@@ -15,7 +15,14 @@ const config = {
   timeout: 500,
 };
 
-app.use(pino({ name: "node-shortcut-tv-handler" }));
+app.use(
+  pino({
+    name: "node-shortcut-tv-handler",
+    redact: {
+      paths: ["req.headers.authorization"],
+    },
+  })
+);
 app.use(bodyParser.json());
 
 async function main() {
