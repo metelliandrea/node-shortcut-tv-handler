@@ -69,7 +69,9 @@ async function main() {
       try {
         await remote.sendKeys(Array(req.body.times).fill(Keys.KEY_VOLUP));
 
-        res.status(200).json({ message: "Ok, ho alzato il volume" });
+        res
+          .status(200)
+          .json({ message: `Ok, ho alzato il volume x${req.body.times}` });
       } catch (err) {
         console.error(err.message);
 
@@ -89,7 +91,9 @@ async function main() {
       try {
         await remote.sendKeys(Array(req.body.times).fill(Keys.KEY_VOLDOWN));
 
-        res.status(200).json({ message: "Ok, ho abbassato il volume" });
+        res
+          .status(200)
+          .json({ message: `Ok, ho abbassato il volume x${req.body.times}` });
       } catch (err) {
         console.error(err.message);
 
