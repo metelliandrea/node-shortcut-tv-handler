@@ -6,7 +6,7 @@ module.exports = {
       env: {
         NODE_ENV: "production",
         PORT: 7942,
-        TOKEN: "aNTgA6HeXBP4oyyHetlSUnu9p1M7Gk0qW5C",
+        TOKEN: "<YOUR TOKEN HERE>",
       },
       watch: true
     },
